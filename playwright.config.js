@@ -20,7 +20,7 @@ export default defineConfig({
   use: {
     headless: false,         // helps to run the code without headed command
     screenshot: 'only-on-failure',  //screenshot will be taken only when test fails
-    trace: 'on',          //trace will be taken only when test fails
+    trace: 'off',          //trace will be taken only when test fails
     retries: 1,                          //retry will be done only when test fails
     video: 'on',          //video will be taken only when test fails
 

@@ -4,8 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "key": "npx playwright test",
-    "headed" : "npx playwright test --headed"
+    "test": "npx playwright test",
+    "headed" : "npx playwright test --headed",
+    "config" : "npx playwright test --config=playwright.config1.js",
+    "debug" : "npx playwright test --debug",
+    "report" : "npx playwright show-report",
+    "chrome" : "npx playwright test --config=playwright.config1.js --project=chrome",
+    "firefox" : "npx playwright test --config=playwright.config1.js --project=firefox",
+    "safari" : "npx playwright test --config=playwright.config1.js --project=safari",
+    "webtag" : "npx playwright test --grep=@webtag"
   },
   "keywords": [],
   "author": "",
